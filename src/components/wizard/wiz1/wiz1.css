@@ -1,0 +1,6 @@
+.wizard-1-nav-buttons {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

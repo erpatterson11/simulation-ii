@@ -1,0 +1,74 @@
+.property-listings-container {
+    justify-content: flex-start;
+}
+
+.new-listing-button {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: Open Sans,sans-serif;
+    background-color: var(--green-bright);
+}
+
+.listing-filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.listing-filter-text {
+    font-size: 20px;
+}
+
+.listing-filter-input {
+    width: 85px;
+    padding: 5px;
+    border: 1px solid #519872;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    outline: none;
+}
+
+.listing-filter-button {
+    border: none;
+    padding: 7px;
+    width: 70px;
+    cursor: pointer;
+    background-color: var(--green-bright);
+    font-size: 18px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+}
+
+.reset-filter-button {
+    border: none;
+    padding: 7px;
+    width: 70px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: var(--green-dark);
+    color: var(--white);
+    font-size: 18px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+}
+
+.listings-header-text {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    font-size: 20px;
+    text-align: start;
+}

@@ -1,0 +1,51 @@
+.login-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.auth-logo {
+  margin-bottom: 50px;
+}
+
+.auth-input-name, .input-name {
+  width: 70%;
+  text-align: start;
+  padding-left: 10px;
+  margin-bottom: 3px;
+}
+
+.auth-input {
+  font-size: 25px;
+  width: 70%;
+  margin-bottom: 25px;
+  border: 1px solid var(--green-regular);
+  outline: none;
+}
+
+.login-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-button {
+  border: none;
+  width: 130px;
+  height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Open Sans,sans-serif;
+}
+
+.login-button {
+  background-color: var(--green-bright);
+  color: #000;
+  margin-right: 30px;
+}
+
+.register-button {
+  background-color: var(--green-dark);
+  color: var(--white);
+}

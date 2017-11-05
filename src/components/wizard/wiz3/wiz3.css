@@ -1,0 +1,18 @@
+.wizard-image-preview {
+    width: 70%;
+    height: 300px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,.2);
+    margin-bottom: 20px;
+    background-color: #DEDEDE;
+    border: 1px solid var(--green-regular);
+    outline: none;
+}
+
+.wizard-image {
+    max-width: 100%;
+    max-height: 300px;
+}

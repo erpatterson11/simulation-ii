@@ -1,0 +1,111 @@
+.content-container {
+    justify-content: flex-start;
+}
+
+.wizard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+.wizard-cancel {
+    background-color: var(--red-light);
+    border: none;
+    cursor: pointer;
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 32px;
+    padding: 1px 6px;
+}
+
+.wizard-step-text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.wizard-progress-icons {
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wizard-route-container {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wizard-two-column-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wizard-input-container-half {
+    width: 50%;
+    height: auto;
+}
+
+.wizard-zip-container {
+    margin-top: 25px;
+}
+
+.wizard-input {
+    font-size: 15px;
+    font-weight: 400px;
+    font-family: Open Sans,sans-serif;
+    width: 70%;
+    margin-bottom: 25px;
+    padding: 1px 0;
+    border-radius: 2px;
+    border: 1px solid var(--green-regular);
+    outline: none;
+}
+
+.wizard-input-half {
+    margin-bottom: 0;
+}
+
+.wizard-textarea {
+    height: 100px;
+    resize: none;
+}
+
+.wizard-nav-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.wizard-button-dark {
+    border: none;
+    border-radius: 3px;
+    background-color: var(--green-dark);
+    color: var(--white);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.wizard-button-bright {
+    border: none;
+    border-radius: 3px;
+    background-color: var(--green-bright);
+    color: var(--black);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 10px 30px;
+    cursor: pointer;
+}
